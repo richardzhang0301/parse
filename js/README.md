@@ -5,11 +5,11 @@ This package is a JS lexer (ECMA-262, edition 6.0) written in [Go][1]. It follow
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/parse/v2/js
+	go get -u github.com/tdewolff/parse/js
 
 or add the following import and run project with `go get`
 
-	import "github.com/tdewolff/parse/v2/js"
+	import "github.com/tdewolff/parse/js"
 
 ## Lexer
 ### Usage
@@ -59,7 +59,7 @@ package main
 import (
 	"os"
 
-	"github.com/tdewolff/parse/v2/js"
+	"github.com/tdewolff/parse/js"
 )
 
 // Tokenize JS from stdin.

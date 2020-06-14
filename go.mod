@@ -1,4 +1,4 @@
-module github.com/tdewolff/parse/v2
+module github.com/tdewolff/parse
 
 go 1.13
 

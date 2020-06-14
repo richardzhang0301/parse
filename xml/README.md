@@ -5,11 +5,11 @@ This package is an XML lexer written in [Go][1]. It follows the specification at
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/parse/v2/xml
+	go get -u github.com/tdewolff/parse/xml
 
 or add the following import and run project with `go get`
 
-	import "github.com/tdewolff/parse/v2/xml"
+	import "github.com/tdewolff/parse/xml"
 
 ## Lexer
 ### Usage
@@ -63,7 +63,7 @@ package main
 import (
 	"os"
 
-	"github.com/tdewolff/parse/v2/xml"
+	"github.com/tdewolff/parse/xml"
 )
 
 // Tokenize XML from stdin.

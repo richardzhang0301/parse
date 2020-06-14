@@ -5,11 +5,11 @@ This package is a JSON lexer (ECMA-404) written in [Go][1]. It follows the speci
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/parse/v2/json
+	go get -u github.com/tdewolff/parse/json
 
 or add the following import and run project with `go get`
 
-	import "github.com/tdewolff/parse/v2/json"
+	import "github.com/tdewolff/parse/json"
 
 ## Parser
 ### Usage
@@ -51,7 +51,7 @@ package main
 import (
 	"os"
 
-	"github.com/tdewolff/parse/v2/json"
+	"github.com/tdewolff/parse/json"
 )
 
 // Tokenize JSON from stdin.

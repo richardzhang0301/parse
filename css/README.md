@@ -5,11 +5,11 @@ This package is a CSS3 lexer and parser written in [Go][1]. Both follow the spec
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/parse/v2/css
+	go get -u github.com/tdewolff/parse/css
 
 or add the following import and run project with `go get`
 
-	import "github.com/tdewolff/parse/v2/css"
+	import "github.com/tdewolff/parse/css"
 
 ## Lexer
 ### Usage
@@ -70,7 +70,7 @@ package main
 import (
 	"os"
 
-	"github.com/tdewolff/parse/v2/css"
+	"github.com/tdewolff/parse/css"
 )
 
 // Tokenize CSS3 from stdin.
@@ -132,7 +132,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/tdewolff/parse/v2/css"
+	"github.com/tdewolff/parse/css"
 )
 
 func main() {

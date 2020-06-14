@@ -5,11 +5,11 @@ This package is an HTML5 lexer written in [Go][1]. It follows the specification 
 ## Installation
 Run the following command
 
-	go get -u github.com/tdewolff/parse/v2/html
+	go get -u github.com/tdewolff/parse/html
 
 or add the following import and run project with `go get`
 
-	import "github.com/tdewolff/parse/v2/html"
+	import "github.com/tdewolff/parse/html"
 
 ## Lexer
 ### Usage
@@ -60,7 +60,7 @@ package main
 import (
 	"os"
 
-	"github.com/tdewolff/parse/v2/html"
+	"github.com/tdewolff/parse/html"
 )
 
 // Tokenize HTML from stdin.

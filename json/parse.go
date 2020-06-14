@@ -5,8 +5,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/tdewolff/parse/v2"
-	"github.com/tdewolff/parse/v2/buffer"
+	"github.com/tdewolff/parse"
+	"github.com/tdewolff/parse/buffer"
 )
 
 // GrammarType determines the type of grammar
